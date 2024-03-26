@@ -1,6 +1,0 @@
-RpiMotorLib/__pycache__
-RpiMotorLib/*.pyc
-dist/
-build/
-stuff/
-rpimotorlib.egg-info/

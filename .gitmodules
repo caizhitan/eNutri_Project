@@ -1,3 +1,6 @@
 [submodule "lcdLibrary"]
 	path = lcdLibrary
 	url = https://github.com/the-raspberry-pi-guy/lcd.git
+[submodule "motorControllerLibrary"]
+	path = motorControllerLibrary
+	url = https://github.com/gavinlyonsrepo/RpiMotorLib.git
