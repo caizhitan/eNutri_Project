@@ -16,4 +16,19 @@ Its purpose is to streamline medication and water intake for patients and also a
 <img width="700" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/083ffcd9-5311-4d9a-b1c6-ad4932a41f5c">
 
 
-## Nutri Dispenser
+# Nutri Dispenser
+## The Hardware
+Nutri Dispenser is 3D Printed and built with:
+- Raspberry Pi 4
+- 16-bit LCD Screen
+- Stepper Motor
+- Linear Actuator
+- H-Bridge
+- Relay
+- DC Water Pump
+
+### Hardware Architecture
+<img width="1492" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/aab29631-baec-489e-bf77-0405f9c57f4f">
+
+## The Software
+The libraries used for Nutri Dispenser are linked (`git submodule add`) and credits the original authors.
