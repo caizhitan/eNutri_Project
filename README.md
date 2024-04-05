@@ -133,8 +133,56 @@ With our LCD Display library it is also seamless to program the LCD Display. Wit
 display.lcd_display_string("Next Dispense", 1)
 display.lcd_display_string("12:00 pm", 2)  
 ```
-<img width="600" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/cfcb0493-53e1-4262-9475-ffeec9adbe6a">
+<img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/cfcb0493-53e1-4262-9475-ffeec9adbe6a">
 
+### Programming our Dispenser to be integrated with our Ecosystem
+
+Our Dispenser is connected with our Ecosystem using RESTful API. 
+```Python
+def fetchPill():
+	url = ipAddress + 'pillWater/pill/users'
+	response = requests.get(url)
+	json_pill = json.loads(response.content)
+	type1 = json_pill[0]["dispense_type"]
+	type2 = json_pill[1]["dispense_type"]
+	type3 = json_pill[2]["dispense_type"]
+	type4 = json_pill[3]["dispense_type"]
+	dispense1 = json_pill[0]["dispense_amount"]
+	dispense2 = json_pill[1]["dispense_amount"]
+	dispense3 = json_pill[2]["dispense_amount"]
+	dispense4 = json_pill[3]["dispense_amount"]
+	print(type4)
+	
+	return type1, type2, type3, type4, dispense1, dispense2, dispense3, dispense4
+	
+def fetchWater():
+	url = ipAddress + 'pillWater/water/users'
+	response = requests.get(url)
+	json_water = json.loads(response.content)
+	typeW = json_water[0]["dispense_type"]
+	dispenseW = json_water[0]["dispense_amount"]
+	stockW = json_water[0]["water_stock"]
+	
+	return typeW, dispenseW, stockW
+	
+def finishPillDispense(pillID):
+	url = ipAddress + 'pillDispense/users'
+	param = {"pill_ID":pillID, "pill_name":"pill " + str(pillID), "pill_info":"Notes: take 2 pill after each meal", "pill_stock":5, "ifDispensed":1, "dispense_type":0, "dispense_amount":0}
+	response = requests.put(url, json = param)
+	print(response.text)
+	
+def finishWaterDispense(stock):
+	url = ipAddress + 'waterDispense/users'
+	params = {"water_ID":1, "water_stock":5, "ifDispensed":1, "dispense_type":0, "dispense_amount":1}
+	param = {"water_ID":1, "ifDispensed":1, "dispense_type":0}
+	response = requests.put(url, json = param)
+	print(response.text)
+```
+
+### Demo Video
+<a href="https://www.youtube.com/watch?v=x80RfngRy9Y">
+  <img src="https://github.com/caizhitan/eNutri_Project/assets/150103035/8bda5604-8038-4ba0-8e7a-c92c45c5ec44" width="800" alt="Watch the Video">
+</a>
 
 
 # Nutri App
