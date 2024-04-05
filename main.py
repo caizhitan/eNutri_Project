@@ -113,24 +113,8 @@ def displayDispensingWater():
 	display.lcd_display_string("Dispensing...", 1)  
 	display.lcd_display_string("       Water", 2)
 	
-def fetchDB():
-	url = ipAddress + 'pillWater/pill/users'
-	#url1 = "http://192.168.1.200/api/dispenser/pill/users"
-	response1 = requests.get(url1)
-	print(response1)
-	json_water = json.loads(response1.content)
 
-        
-	ifDispensed = json_water[0]["ifdispensed"]
-	pillType = json_water[0]["pillType_id"]
-	id = json_water[0]["pHistory_id"]
-	print(ifDispensed)
-	print(pillType)
-	print(id)
-	return ifDispensed, pillType, id
-	
 def fetchPill():
-	#time.sleep(5)
 	url = ipAddress + 'pillWater/pill/users'
 	response = requests.get(url)
 	json_pill = json.loads(response.content)
@@ -147,7 +131,6 @@ def fetchPill():
 	return type1, type2, type3, type4, dispense1, dispense2, dispense3, dispense4
 	
 def fetchWater():
-	#time.sleep(5)
 	url = ipAddress + 'pillWater/water/users'
 	response = requests.get(url)
 	json_water = json.loads(response.content)
@@ -162,10 +145,6 @@ def finishPillDispense(pillID):
 	param = {"pill_ID":pillID, "pill_name":"pill " + str(pillID), "pill_info":"Notes: take 2 pill after each meal", "pill_stock":5, "ifDispensed":1, "dispense_type":0, "dispense_amount":0}
 	response = requests.put(url, json = param)
 	print(response.text)
-	# url2 = ipAddress + "pillTodayHistory/users"
-	# param = {"pill_ID":pillID, "amount":1}
-	# response2 = requests.post(url, json=param)
-	# print(response2.text)
 	
 def finishWaterDispense(stock):
 	url = ipAddress + 'waterDispense/users'
