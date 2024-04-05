@@ -32,7 +32,7 @@ Nutri Dispenser is 3D Printed and built with:
 
 ### Design Specifications
 
-The dispenser was designed using Sharp3D. It features:
+The dispenser was designed using Sharp3D and Fusion 360. It features:
 - A rotating disk to switch between different medication pills.
   
 ![Screen Recording 2024-04-05 at 1 34 46 PM](https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/2c995e35-6623-4069-8626-8220489e037a)
@@ -40,14 +40,31 @@ The dispenser was designed using Sharp3D. It features:
 - 2 litre water tank for dispensing of water.
 <img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/a4bd3b1f-6f8b-4f1b-bd5e-bbd681f5edd0">
 
+- pill cartridge
+![07C16D79-BC7D-4F5E-B0E5-D542624F3866](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/79d5c9d6-a29a-495a-9f04-ee6ed0e43c27)
+
+- Smart LCD
+![IMG_5071](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/cfcb0493-53e1-4262-9475-ffeec9adbe6a)
 
 ### Printing our Parts
+- Using bambu lab printer to print pcb holder
+![IMG_5354](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/801884a0-3439-489f-a56a-3c13f6fbbc61)
 
+- print final pill cartridge
+![IMG_5285](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/acb65f45-f318-4748-b15d-6a892205adca)
 
 ### Building our Dispenser
+- Prototyping pcb holder
+![IMG_5330](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/d9101a94-bf25-4768-ac3e-c0647c1ea079)
 
+- soldering perf board to connect pi with other pcbs and connections to components
+![E6A0F747-2155-494F-83E6-47CE758CB006](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/2a423945-4426-4fff-8ae7-f85b23736d20)
 
+- top down view
+(![IMG_5626](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/b0d010ce-593d-4a57-a216-cd29a61b308b)
 
+- pill cartridges
+![IMG_5623](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/082cf7a9-3dda-4f5d-bd9d-5c3e88b588d1)
 
 ## The Software
 The libraries used for Nutri Dispenser are linked (`git submodule add`) and credits the original authors. We used these libraries for driving our stepper motor and also for ease of programming our LCD Screen. 
