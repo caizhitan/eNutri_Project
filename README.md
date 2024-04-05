@@ -1,14 +1,15 @@
-# About our Project (eNutri)
+# About eNutri
 eNutri is a complete ecosystem that consists of: 
 
 - [Nutri Dispenser](#nutri-dispenser)
 - [Nutri App](#nutri-app)
 - [Nutri Web](#nutri-web)
 
+## Our Purpose.
+Our purpose is to revolutionize patient care by streamlining medication and water intake with technology, empowering doctors to oversee and tailor these essential aspects for each of their patients seamlessly.
+
 ### Ecosystem Diagram
 <img width="1300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/e3808952-1c63-4ba0-a116-ee11fec9b060">
-
-Its purpose is to streamline medication and water intake for patients and also allow docotors to monitor and modify medication and water intake for all their patients.
 
 ### System Architecture
 <img width="700" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/a75eda17-a3ef-45cf-8c45-0db983d15b51">
