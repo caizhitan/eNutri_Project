@@ -35,16 +35,21 @@ Nutri Dispenser is 3D Printed and built with:
 ### Design Specifications
 
 The dispenser was designed using Sharp3D and Fusion 360. It features:
-- A rotating disk to switch between different medication pills.
+- ### Medicine Cartridges
+
+  <img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Project/assets/150103035/43b23b60-8991-42e5-99c5-222cf6d0b62a">
+
+- ### A rotating disk to dispense different medication pills.
   
-  ![Screen Recording 2024-04-05 at 1 34 46 PM](https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/2c995e35-6623-4069-8626-8220489e037a)
+  ![Screen Recording 2024-04-05 at 5 24 10 PM](https://github.com/caizhitan/eNutri_Project/assets/150103035/4f5857b8-1172-4465-835d-e5879720c176)
 
-
-- 2 litre water tank for dispensing of water.
+- ### 2 Litre Water Tank.
   
-  <img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/a4bd3b1f-6f8b-4f1b-bd5e-bbd681f5edd0">
+  <img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Project/assets/150103035/55929c6c-60d7-4b6c-9983-bb9c029e9cb6">
 
-- pill cartridge
+- ### Exterior Look
+
+  <img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Project/assets/150103035/14b00aaa-1f8b-43c1-bac6-93f1363e8010">
 
 
 
