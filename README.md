@@ -61,7 +61,7 @@ The dispenser was designed using Sharp3D and Fusion 360. It features:
 ![E6A0F747-2155-494F-83E6-47CE758CB006](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/2a423945-4426-4fff-8ae7-f85b23736d20)
 
 - top down view
-(![IMG_5626](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/b0d010ce-593d-4a57-a216-cd29a61b308b)
+![IMG_5626](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/b0d010ce-593d-4a57-a216-cd29a61b308b)
 
 - pill cartridges
 ![IMG_5623](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/082cf7a9-3dda-4f5d-bd9d-5c3e88b588d1)
