@@ -40,5 +40,50 @@ The dispenser was designed using Sharp3D. It features:
 - 2 litre water tank for dispensing of water.
 <img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/a3b418e9-cb9a-405d-aa3c-9f464d6f59e7">
 
+### Printing our Parts
+
 ## The Software
-The libraries used for Nutri Dispenser are linked (`git submodule add`) and credits the original authors.
+The libraries used for Nutri Dispenser are linked (`git submodule add`) and credits the original authors. We used these libraries for driving our stepper motor and also for ease of programming our LCD Screen. 
+
+
+### Programming our Stepper Motor 
+With the Stepper Motor Driver library we can easily configure our rotation for our Medication rotating disk with just 1 line of code.
+```Python
+mymotortest.motor_run(GPins,.01,128, False, False,"full", .05)
+```
+
+We then build this into multiple functions we can use to choose which pill to be selected.
+```Python
+def pillTwo(): 
+    GPins = [17, 18, 27, 22] 
+    mymotortest.motor_run(GPins,.01,128, True, False,"full", .05)
+    time.sleep(2)
+def pillTwoReturn():
+	GPins = [17, 18, 27, 22]
+	mymotortest.motor_run(GPins,.01,128, False, False,"full", .05)
+    
+    
+def pillThree(): 
+    GPins = [17, 18, 27, 22] 
+    mymotortest.motor_run(GPins,.01,256, True, False,"full", .05)
+    time.sleep(2)
+def pillThreeReturn():
+	GPins = [17, 18, 27, 22]
+	mymotortest.motor_run(GPins,.01,256, False, False,"full", .05)
+    
+
+def pillFour(): 
+    GPins = [17, 18, 27, 22] 
+    mymotortest.motor_run(GPins,.01,128, False, False,"full", .05)
+    time.sleep(2)
+def pillFourReturn():
+	GPins = [17, 18, 27, 22]
+	mymotortest.motor_run(GPins,.01,128, True, False,"full", .05)
+```
+We did not need a function for `pillOne` as the default position of the Acuator will always be at pillOne and ready to be dispensed.
+
+### Programming our LCD Display
+With our LCD Display library it is also seamless to program the LCD Display. With just 1 line of Code we are able to output what we want.
+```Python
+display.lcd_display_string("eNutri Dispenser", 1)  
+```
