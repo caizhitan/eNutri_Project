@@ -232,4 +232,21 @@ def finishWaterDispense(stock):
 - Using a native app allows the user to access their camera and photo library to upload photos for AI detection
 - Using the MVC architecture alongside REST api to effectively display the correct data to the user
 
+### AI image detection
+- Using a YOLOv5 model, we are able to categorise and bound images to analyse
+- Using a flask server, it is able to take in API calls and run the model using pyTorch
+  
 # Nutri Web
+## Features
+### Introduction
+- Nutri web is a web portal meant for doctors and caretakers to access
+- It is made to monitor patient data over time and allow doctors to switch up patient's healthcare plan
+- Automatically reconfigures scheduler and collect data of the patient
+
+## Design
+<img width="800" alt="Screenshot 2024-01-19 at 5 00 28 AM" src="https://github.com/caizhitan/eNutri_Project/assets/165815210/ed535593-0426-477a-8ed3-5c3f481bbbf3">
+
+- Simple dashboards for doctors to visualise patient's data to facilitate decision making
+
+## Technology details
+- Nutri web is developed using react and WAMP backend
