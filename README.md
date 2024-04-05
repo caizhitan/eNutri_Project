@@ -119,7 +119,13 @@ def pillFourReturn():
 	GPins = [17, 18, 27, 22]
 	mymotortest.motor_run(GPins,.01,128, True, False,"full", .05)
 ```
-We did not need a function for `pillOne` as the default position of the Acuator will always be at pillOne and ready to be dispensed.
+We do not need function for `pillOne` as the default position of the Acuator will always be at pillOne and ready to be dispensed.
+
+### Demo Video
+
+<a href="https://www.youtube.com/watch?v=f3bLCoSJZRg">
+  <img src="https://github.com/caizhitan/eNutri_Project/assets/150103035/23ee3cce-e65b-4daf-aa8f-b3208dc21320" width="800" alt="Watch the Video">
+</a>
 
 ### Programming our LCD Display
 With our LCD Display library it is also seamless to program the LCD Display. With just 1 line of Code we are able to output what we want.
