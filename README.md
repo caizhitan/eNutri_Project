@@ -111,3 +111,28 @@ With our LCD Display library it is also seamless to program the LCD Display. Wit
 ```Python
 display.lcd_display_string("eNutri Dispenser", 1)  
 ```
+
+# Nutri App
+## Features
+### Introduction
+- Nutri app is made mainly for elderly patients to have a application that is easily to manage their CKD
+- Able to look up dispensing timings for both water and medicine
+- Arrange dispensing ahead of time for day to day schedule
+- Using AI image detection model to detect food
+- Analysis detected food and tag it with nutritional values for long term food intake monitoring
+
+### Demo version
+- Made a separate app to demo for presentation
+- Able to directly control the dispenser to dispense pill / water
+
+## Design
+- Home page
+![IMG_5182](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/e0559dc2-fa39-4eff-a235-8d414de7f567)
+- Dispenser page
+![IMG_5185](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/7b1e90b0-8c79-4921-aa53-66e82f5d36c7)
+- Image Detection page
+![IMG_5183 3](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/447699e8-deab-4715-a4cf-24c1f5699646)
+- Analysis page
+![IMG_5184](https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/bf365394-b788-4d58-9889-5e2864e34bb6)
+
+## Technology details
