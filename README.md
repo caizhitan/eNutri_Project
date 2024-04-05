@@ -43,6 +43,12 @@ The dispenser was designed using Sharp3D. It features:
 
 ### Printing our Parts
 
+
+### Building our Dispenser
+
+
+
+
 ## The Software
 The libraries used for Nutri Dispenser are linked (`git submodule add`) and credits the original authors. We used these libraries for driving our stepper motor and also for ease of programming our LCD Screen. 
 
