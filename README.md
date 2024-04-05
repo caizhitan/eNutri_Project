@@ -228,13 +228,8 @@ def finishWaterDispense(stock):
  <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/bf365394-b788-4d58-9889-5e2864e34bb6"> 
 
 ## Technology details
-
-
-
-
-
-
-
-
+- Nutri app is developed using react native, being able to cater to both iphone and android phone was a requirement for this project, it was chosen as it has similar features to react.
+- Using a native app allows the user to access their camera and photo library to upload photos for AI detection
+- Using the MVC architecture alongside REST api to effectively display the correct data to the user
 
 # Nutri Web
