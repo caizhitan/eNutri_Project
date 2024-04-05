@@ -38,7 +38,8 @@ The dispenser was designed using Sharp3D. It features:
 ![Screen Recording 2024-04-05 at 1 34 46 PM](https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/2c995e35-6623-4069-8626-8220489e037a)
 
 - 2 litre water tank for dispensing of water.
-<img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/a3b418e9-cb9a-405d-aa3c-9f464d6f59e7">
+<img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/a4bd3b1f-6f8b-4f1b-bd5e-bbd681f5edd0">
+
 
 ### Printing our Parts
 
