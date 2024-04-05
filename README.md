@@ -53,33 +53,45 @@ The dispenser was designed using Sharp3D and Fusion 360. It features:
   <img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Project/assets/150103035/14b00aaa-1f8b-43c1-bac6-93f1363e8010">
 
 
-
 ### Printing our Parts
-- Using bambu lab printer to print pcb holder
+
+- ### Using our Bambu Lab X1C/P1S to print
 
   <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/801884a0-3439-489f-a56a-3c13f6fbbc61">
 
-- print final pill cartridge
+- ### Pill Cartridges
 
-  <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/acb65f45-f318-4748-b15d-6a892205adca">
+  <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/082cf7a9-3dda-4f5d-bd9d-5c3e88b588d1">
 
 ### Building our Dispenser
-- Prototyping Perfboard and Raspberry Pi holder
 
-  <img width="500" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/d9101a94-bf25-4768-ac3e-c0647c1ea079">
+- ### Prototyping Perfboard and Raspberry Pi holder
 
-- Soldering Perfboard to connect Raspberry Pi with all our components
+  <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/d9101a94-bf25-4768-ac3e-c0647c1ea079">
+
+- ### Soldering Perfboard to connect Raspberry Pi with all our components
 
   <img width="500" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/2a423945-4426-4fff-8ae7-f85b23736d20">
 
-- Top Down View
+- ### Interior View
 
-  <img width="600" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/b0d010ce-593d-4a57-a216-cd29a61b308b">
+  <img width="400" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/b0d010ce-593d-4a57-a216-cd29a61b308b">
 
-- Pill Cartridges
+  <img width="400" alt="image" src="https://github.com/caizhitan/eNutri_Project/assets/150103035/6401b855-9b43-4986-8b01-e83996c4bf15">
 
-  <img width="400" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/082cf7a9-3dda-4f5d-bd9d-5c3e88b588d1">
+- ### Stand and base
 
+  <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Project/assets/150103035/b2245c10-1b3b-4fc6-a4c8-9f029cbf05b8">
+
+- ### Top Down View
+
+  <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Project/assets/150103035/4ffd7ff0-0b4b-467a-9b83-dd601013a174">
+
+## Finished Product  
+
+  <img width="800" alt="image" src="https://github.com/caizhitan/eNutri_Project/assets/150103035/0e06a536-f3d5-4568-b9df-97c0dcc82529">
+
+Here is a photo of our finished dispenser, as you can see it looks exactly like our CAD Model. The smaller dispenser inside was our first prototype for this idea named DispenserV1. 
 
 ## The Software
 The libraries used for Nutri Dispenser are linked (`git submodule add`) and credits the original authors. We used these libraries for driving our stepper motor and also for ease of programming our LCD Screen. 
