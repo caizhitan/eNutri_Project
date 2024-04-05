@@ -1,8 +1,9 @@
 # About our Project (eNutri)
 eNutri is a complete ecosystem that consists of: 
-- Nutri Dispenser
-- Nutri App
-- Nutri Web.
+
+- [Nutri Dispenser](#nutri-dispenser)
+- [Nutri App](#nutri-app)
+- [Nutri Web](#nutri-web)
 
 ### Ecosystem Diagram
 <img width="1300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/150103035/e3808952-1c63-4ba0-a116-ee11fec9b060">
@@ -154,3 +155,13 @@ display.lcd_display_string("12:00 pm", 2)
  <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/bf365394-b788-4d58-9889-5e2864e34bb6"> 
 
 ## Technology details
+
+
+
+
+
+
+
+
+
+# Nutri Web
