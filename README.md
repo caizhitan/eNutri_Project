@@ -211,21 +211,21 @@ def finishWaterDispense(stock):
 - Able to directly control the dispenser to dispense pill / water
 
 ## Design
-- Home page
+- ### Home page
 
-<img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/e0559dc2-fa39-4eff-a235-8d414de7f567">
+  <img width="200" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/e0559dc2-fa39-4eff-a235-8d414de7f567">
 
-- Dispenser page
+- ### Dispenser page
 
-<img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/7b1e90b0-8c79-4921-aa53-66e82f5d36c7">
+  <img width="200" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/7b1e90b0-8c79-4921-aa53-66e82f5d36c7">
 
-- Image Detection page
+- ### Image Detection page
 
-<img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/447699e8-deab-4715-a4cf-24c1f5699646">
+  <img width="200" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/447699e8-deab-4715-a4cf-24c1f5699646">
 
-- Analysis page
+- ### Analysis page
 
- <img width="300" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/bf365394-b788-4d58-9889-5e2864e34bb6"> 
+  <img width="200" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/bf365394-b788-4d58-9889-5e2864e34bb6"> 
 
 ## Technology details
 - Nutri app is developed using react native, being able to cater to both iphone and android phone was a requirement for this project, it was chosen as it has similar features to react.
