@@ -210,7 +210,7 @@ def finishWaterDispense(stock):
 - Made a separate app to demo for presentation
 - Able to directly control the dispenser to dispense pill / water
 
-## Design
+## App User Interfaces
 - ### Home page
 
   <img width="200" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/e0559dc2-fa39-4eff-a235-8d414de7f567">
@@ -228,11 +228,12 @@ def finishWaterDispense(stock):
   <img width="200" alt="image" src="https://github.com/caizhitan/eNutri_Dispenser/assets/165815210/bf365394-b788-4d58-9889-5e2864e34bb6"> 
 
 ## Technology details
-- Nutri app is developed using react native, being able to cater to both iphone and android phone was a requirement for this project, it was chosen as it has similar features to react.
+- Nutri App is developed using React Native, to cater for both iphone and android users was a requirement for this project, it was chosen as it also has similar 
+  features to React
 - Using a native app allows the user to access their camera and photo library to upload photos for AI detection
 - Using the MVC architecture alongside REST api to effectively display the correct data to the user
 
-### AI image detection
+### AI image detection (Intelligent  Nutri)
 - Using a YOLOv5 model, we are able to categorise and bound images to analyse
 - Using a flask server, it is able to take in API calls and run the model using pyTorch
   
@@ -240,13 +241,15 @@ def finishWaterDispense(stock):
 ## Features
 ### Introduction
 - Nutri web is a web portal meant for doctors and caretakers to access
-- It is made to monitor patient data over time and allow doctors to switch up patient's healthcare plan
+- It is made to monitor patient data over time and allow doctors to adjust the patient's medication & water intakes
 - Automatically reconfigures scheduler and collect data of the patient
 
-## Design
+## Web User Interface
 <img width="800" alt="Screenshot 2024-01-19 at 5 00 28 AM" src="https://github.com/caizhitan/eNutri_Project/assets/165815210/ed535593-0426-477a-8ed3-5c3f481bbbf3">
 
-- Simple dashboards for doctors to visualise patient's data to facilitate decision making
+Simple dashboards for doctors to visualise patient's data to facilitate decision making.
 
 ## Technology details
-- Nutri web is developed using react and WAMP backend
+- Nutri web is developed using React for frontend and WAMP for backend
+
+# The End. 
