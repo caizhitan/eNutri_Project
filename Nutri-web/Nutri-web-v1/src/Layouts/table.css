@@ -1,0 +1,123 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px;
+  }
+.tag {
+    padding-left: 50px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: #f49b00;
+    border-radius: 25px;
+  }
+
+.tableHeader {
+    border: 1px solid;
+    border-collapse: collapse;
+    font-weight: bold;
+    color: #333;
+  }
+
+.flexcontainer {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.floatchild {
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.center-table { 
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 20px;
+  border: 3px;
+  border-style: solid;
+  border-color: #f49b00;
+  border-radius: 25px;
+}
+
+.saveButton {
+  font-size: xx-large;
+  font: bolder;
+  width: 175px;
+  height: 50px;  
+  border-radius: 25px;
+  background-color: #47aa66;
+  border-color: #fff;
+  border-style:none;
+}
+
+.inputSize {
+  height: 50px;
+  width: 350px;
+  border-radius: 25px;
+  border-color: #ffdb00;
+  border-style:solid;
+  background-color: #74b4e3;
+  font-size: 20px;
+}
+
+.inputMenuSize {
+  height: 45px;
+  width: 300px;
+  border-radius: 25px;
+  border-color: #ffdb00;
+  border-style:solid;
+  background-color: #74b4e3;
+  font-size: 25px;
+  font-style: bold;
+}
+
+.inputMenuItem {
+  font-size: 20px;
+  font-style: bold;
+}
+
+.inputMenuBackground {
+  background-color: #74b4e3;
+  border-color: #fff;
+}
+
+.sideSubHeader {
+  font-size: 30px;
+}
+
+.inTableText {
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.createTableleft {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+}
+
+.createTableBorder {
+    border: 3px;
+    border-style: solid;
+    border-color: #f49b00;
+    border-radius: 25px;
+}
+
+.tableSaveButton {
+  padding-top: 15px;
+}

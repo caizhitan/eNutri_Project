@@ -1,0 +1,16 @@
+.Background {
+    background-color: #74b4e3;
+    height: 4rem;
+  }
+  
+  .title {
+    padding-top: 10px;
+    font-size: 40px;
+  }
+
+  .loginTitle {
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 250px;
+    font-size: 40px;
+  }
