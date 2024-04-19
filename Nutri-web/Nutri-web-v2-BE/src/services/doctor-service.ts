@@ -8,8 +8,8 @@ export class DoctorService {
         return doctorsList;
     }
 
-    public static async createDoctor() {
-        const createdDoctor = await db.insert(doctors).values({ name: "test", phone: "1234"}).returning({ insertedId: doctors.id});
+    public static async createDoctor(doctorName:string, doctorPhone:string) {
+        const createdDoctor = await db.insert(doctors).values({ name: doctorName, phone: doctorPhone}).returning({ insertedId: doctors.id});
         return createdDoctor;
     }
 }

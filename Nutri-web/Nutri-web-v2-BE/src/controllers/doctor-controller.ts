@@ -26,7 +26,10 @@ export class DoctorController {
     public static async createDoctor (req:Request, res:Response) {
         try {
             // no params for this straight to service
-            const createdDoctor = await DoctorService.createDoctor();
+
+            const doctorName = req.query.name as string;
+            const doctorPhone =  req.query.phone as string;
+            const createdDoctor = await DoctorService.createDoctor(doctorName, doctorPhone);
             return res.send(createdDoctor);
         }
         catch {

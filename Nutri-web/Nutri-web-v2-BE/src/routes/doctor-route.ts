@@ -9,6 +9,7 @@ doctorRouter.get('/', (req:Request, res:Response) => {
 });
 
 doctorRouter.post('/', (req:Request, res:Response) => {
+    console.log("goes here");
     return DoctorController.createDoctor(req, res);
 })
 
