@@ -7,7 +7,7 @@ eNutri is a complete ecosystem that consists of:
   
 ### Contributors
 <a href="https://github.com/caizhitan/eNutri_Project/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=caizhitan/eNutri_Project"  />
+  <img src="https://contrib.rocks/image?repo=caizhitan/eNutri_Project" width="100" />
 </a>
 
 ## Our Purpose.
